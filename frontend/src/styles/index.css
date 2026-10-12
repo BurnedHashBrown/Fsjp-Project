@@ -1,0 +1,68 @@
+:root {
+  /* Brand & Canvas Colors from design.md */
+  --color-primary: #0066ee;
+  --color-primary-hover: #0052cc;
+  --color-bg: #ffffff;
+  --color-surface: #f7f8fa;
+  --color-surface-hover: #f1f3f6;
+  --color-text-main: #1a1a1a;
+  --color-text-secondary: #6b7280;
+  --color-border: #e5e7eb;
+  --color-border-focus: #0066ee;
+
+  /* Dietary Tag Colors from design.md */
+  --tag-veg: #2e9e5b;
+  --tag-veg-bg: rgba(46, 158, 91, 0.15);
+  --tag-nonveg: #e4572e;
+  --tag-nonveg-bg: rgba(228, 87, 46, 0.15);
+  --tag-snack: #f0a020;
+  --tag-snack-bg: rgba(240, 160, 32, 0.15);
+
+  /* Typography */
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+
+  /* Spacing Grid (8px base) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+
+  /* Border Radii */
+  --radius-sm: 4px;
+  --radius-card: 8px;
+  --radius-modal: 12px;
+  --radius-pill: 9999px;
+
+  /* Shadows */
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.05);
+  --shadow-hover: 0 6px 16px rgba(0, 0, 0, 0.08);
+  --shadow-modal: 0 20px 40px rgba(0, 0, 0, 0.14);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--color-bg);
+  color: var(--color-text-main);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
